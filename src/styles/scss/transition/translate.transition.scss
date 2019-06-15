@@ -1,0 +1,137 @@
+.slide-up {
+    &-apear {
+        opacity: 0 !important;
+        z-index: 1 !important;
+        display: none !important;
+
+        &.slide-up-appear-active {
+            opacity: 1 !important;
+            display: block !important;
+
+            transform: translateY(0%) !important;
+            -webkit-transform: translateY(0%) !important;
+            -moz-transform: translateY(0%) !important;
+            -o-transform: translateY(0%) !important;
+        }
+    }
+
+    &-enter {
+        opacity: 0 !important;
+        z-index: 1 !important;
+        display: flex !important;
+
+        &.slide-up-enter-active {
+            opacity: 1 !important;
+            display: flex !important;
+
+            transform: translateY(0%) !important;
+            -webkit-transform: translateY(0%) !important;
+            -moz-transform: translateY(0%) !important;
+            -o-transform: translateY(0%) !important;
+        }
+
+        &-done {
+            opacity: 1 !important;
+            display: flex !important;
+
+            transform: translateY(0%) !important;
+            -webkit-transform: translateY(0%) !important;
+            -moz-transform: translateY(0%) !important;
+            -o-transform: translateY(0%) !important;
+        }
+    }
+
+    &-exit {
+        opacity: 1 !important;
+        display: flex !important;
+
+        &.slide-up-exit-active {
+            opacity: 0 !important;
+            display: flex !important;
+
+            transform: translateY(-50%) !important;
+            -webkit-transform: translateY(-50%) !important;
+            -moz-transform: translateY(-50%) !important;
+            -o-transform: translateY(-50%) !important;
+        }
+
+        &-done {
+            opacity: 0 !important;
+            display: none !important;
+
+            transform: translateY(-50%) !important;
+            -webkit-transform: translateY(-50%) !important;
+            -moz-transform: translateY(-50%) !important;
+            -o-transform: translateY(-50%) !important;
+        }
+    }
+}
+
+.slide-down {
+    &-apear {
+        opacity: 0 !important;
+        z-index: 1 !important;
+        display: none !important;
+
+        &.slide-down-appear-active {
+            opacity: 1 !important;
+            display: block !important;
+
+            transform: translateY(0%) !important;
+            -webkit-transform: translateY(0%) !important;
+            -moz-transform: translateY(0%) !important;
+            -o-transform: translateY(0%) !important;
+        }
+    }
+
+    &-enter {
+        opacity: 0 !important;
+        z-index: 1 !important;
+        display: flex !important;
+
+        &.slide-down-enter-active {
+            opacity: 0 !important;
+            display: flex !important;
+
+            transform: translateY(50%) !important;
+            -webkit-transform: translateY(50%) !important;
+            -moz-transform: translateY(50%) !important;
+            -o-transform: translateY(50%) !important;
+        }
+
+        &-done {
+            opacity: 1 !important;
+            display: flex !important;
+
+            transform: translateY(0%) !important;
+            -webkit-transform: translateY(0%) !important;
+            -moz-transform: translateY(0%) !important;
+            -o-transform: translateY(0%) !important;
+        }
+    }
+
+    &-exit {
+        opacity: 0 !important;
+        display: flex !important;
+
+        &.slide-down-exit-active {
+            opacity: 0 !important;
+            display: flex !important;
+
+            transform: translateY(50%) !important;
+            -webkit-transform: translateY(50%) !important;
+            -moz-transform: translateY(50%) !important;
+            -o-transform: translateY(50%) !important;
+        }
+
+        &-done {
+            opacity: 0 !important;
+            display: none !important;
+
+            transform: translateY(50%) !important;
+            -webkit-transform: translateY(50%) !important;
+            -moz-transform: translateY(50%) !important;
+            -o-transform: translateY(50%) !important;
+        }
+    }
+}
