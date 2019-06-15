@@ -15,7 +15,10 @@
         "lib": ["es6", "es7", "dom"],
         "baseUrl": "./",
         "paths": {
-            "@/*": ["../src/*"]
+            "@/*": ["../src/*"],
+            "storybook/*": ["./component/*"],
+            "storybook-atom/*": ["./component/atoms/*"],
+            "storybook-template/*": ["./component/templates/*"]
         }
     },
     "exclude": ["build", "node_modules"]

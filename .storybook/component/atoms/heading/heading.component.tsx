@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 import * as PropTypes from 'prop-types';
 
-import { DefaultPropsInterface, DefaultDynamicObject } from '@/interfaces/object.interface';
+import { DefaultPropsInterface, DefaultDynamicObject } from '@/shared/interfaces/object.interface';
 import './style.scss';
 
 interface props extends DefaultPropsInterface {
